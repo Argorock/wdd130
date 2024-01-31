@@ -1,0 +1,35 @@
+h1 {
+    font-size: 2em;
+}
+
+#first {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#second {
+    font-size: 3em;
+}
+img {
+    padding: 15px;
+    margin: 50px;
+    width: 350px;
+    float: right;
+}
+section {
+    border-style: solid;
+    background-color: lightgrey;
+    border-width: 2px;
+    border-color: black;
+    color: purple;
+    border-radius: 10px;
+}
+#header_one {
+    color: orange;
+
+}
+
+#clear {
+    clear: both;
+}
