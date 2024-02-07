@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Shojumaru&display=swap');
+
+
 #content {
-    max-width: 1600px;
+    max-width: 100%;
     margin: 0 auto;
 }
 nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #8898AA;
@@ -28,6 +32,11 @@ nav a:hover {
 main section {
     text-align: center;
 }
+
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #032E63;
@@ -35,22 +44,23 @@ main section {
 
 body {
     background-color: #8898AA;
+    font-family: 'Lora', 'Georgia', 'Verdana';
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 
 header {
     background-color: #59ACB1;
 }
 
-.book {
+.book, .join {
     background-color: #8898AA;
     color: #032E63;
     text-decoration: none;
-}
-
-.join {
-    background-color: #8898AA;
-    color: #032E63;
-    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -65,11 +75,14 @@ header {
 
 .msg {
     background-color: #032E63;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #59ACB1;
     color: black;
+    padding: 25px 50px;
 }
 
 footer a {
@@ -89,6 +102,8 @@ footer p a:hover{
 
 .home-title {
     color: black;
+    font-family: 'Shojumaru', 'Georgia','Verdana';
+    font-size: 2em;
 }
 
 h4 {
@@ -97,10 +112,13 @@ h4 {
 
 .msg h2 {
     color: black;
+    font-family: 'Shojumaru', 'Georgia','Verdana';
 }
 
 .msg p {
     color: black;
+    font-size: 8em;
+    padding-bottom: 15px;
 }
 
 .logo {
@@ -109,5 +127,21 @@ h4 {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
+h2 {
+    margin: 0;
+} 
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.card-img {
+    border: 10px solid black;
+}
