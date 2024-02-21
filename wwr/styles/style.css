@@ -1,13 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Shojumaru&display=swap');
 
+.home-title {
+    color: black;
+    font-family: 'Shojumaru', 'Georgia','Verdana';
+    font-size: 2em;
+}
 
 #content {
     max-width: 100%;
     margin: 0 auto;
 }
+/* header part */
+.logo {
+    width: 80px
+}
+
+header {
+    background-color: #032E63;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
 nav a {
     text-align: center;
-    color: black;
+    color: #8898AA;
     text-decoration: none;
     padding: 35px;
 }
@@ -16,6 +43,7 @@ nav a:hover {
     color: #032E63;
 }
 
+/* hero part */
 #hero-img {
     width: 100%;
 }
@@ -29,6 +57,31 @@ nav a:hover {
     text-align: center;
 }
 
+.msg {
+    background-color: #032E63;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.book, .join {
+    background-color: #8898AA;
+    color: #032E63;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.book:hover {
+    background-color: #032E63;
+    color: #59ACB1;
+}
+
+h4 {
+    color: black;
+}
+
+/* main body part */
 main section {
     text-align: center;
 }
@@ -50,35 +103,12 @@ body {
     margin: 0;
 }
 
-header {
-    background-color: #59ACB1;
-}
-
-.book, .join {
-    background-color: #8898AA;
-    color: #032E63;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 15px 30px;
-    border-radius: 5px;
-}
-
-.book:hover {
-    background-color: #032E63;
-    color: #59ACB1;
-}
-
 .join:hover {
     background-color: #032E63;
     color: #59ACB1;
 }
 
-.msg {
-    background-color: #032E63;
-    line-height: 1.5em;
-    padding: 35px;
-}
-
+/* footer part */
 footer {
     background-color: #59ACB1;
     color: black;
@@ -99,16 +129,7 @@ footer a:hover{
 footer p a:hover{
     text-decoration: underline;
 }
-
-.home-title {
-    color: black;
-    font-family: 'Shojumaru', 'Georgia','Verdana';
-    font-size: 2em;
-}
-
-h4 {
-    color: black;
-}
+/* footer end */
 
 .msg h2 {
     color: black;
@@ -121,10 +142,6 @@ h4 {
     padding-bottom: 15px;
 }
 
-.logo {
-    width: 80px
-}
-
 .icon {
     width: 80px;
     padding-top: 10px;
@@ -133,10 +150,6 @@ h4 {
 h2 {
     margin: 0;
 } 
-
-#logo_link {
-    padding-top: 5px;
-}
 
 footer .social img {
     padding-top: 15px;
