@@ -1,0 +1,35 @@
+/* Header tag css */
+header {
+
+}
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    /* display: flex; */
+    background-color: #002D3A;
+    /* justify-content: space-around; */
+    align-items: center;
+    color: #6AB89F;
+
+}
+nav a {
+    color: #6AB89F;
+}
+nav a:hover {
+    color: #FED27A;
+    background-color: #6AB89F;
+}
+
+img {
+    width: 150px;
+}
+
+
+/* main tag css */
+main {
+
+}
+.hero {
+    width: 100%;
+}
