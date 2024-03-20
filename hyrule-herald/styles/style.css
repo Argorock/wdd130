@@ -15,6 +15,7 @@ nav {
 }
 nav a {
     color: #6AB89F;
+    margin: 0 auto;
 }
 nav a:hover {
     color: #FED27A;
