@@ -12,6 +12,7 @@ nav {
     background-color: #002D3A;
     align-items: center;
     color: #6AB89F;
+    border-bottom: #c29b0c 2px solid;
 }
 nav a {
     color: #6AB89F;
@@ -21,6 +22,8 @@ nav a {
 nav a:hover {
     color: #c29b0c;  
     width: 100%;
+    transform: scale(1.1);
+    opacity: .6;
 }
 
 .nav-icons {
@@ -36,11 +39,13 @@ nav a:hover {
     overflow: hidden;
     padding: 10px;
     text-align: center;
+    border-bottom: #c29b0c 5px solid;
 }
 
-#logo img {
-    /* padding-bottom: 10px; */
+#logo:hover {
+    transform: scale(1.1);
 }
+
 
 #logo img:hover {
     /* background-color: #FED27A; */
@@ -65,6 +70,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     /* max-height: 753.49px; */
+    border-bottom: #c29b0c 2px solid;
 }
 
 .hero img {
@@ -85,44 +91,50 @@ main {
 }
 
 .hero-msg h1 {
+    text-shadow: -2px -2px 0 #002D3A;
     color: #c29b0c;
-    font-size: 30px;
+    font-size: 35px;
 }
 .hero-msg h3 {
+    text-shadow: -2px -2px 0 #002D3A;
+    width: 40%;
+    margin: 0 auto;
     color: #c29b0c;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .message {
     padding-top: 100px;
     display: grid;
-    grid-template-columns: 2fr 2fr 1fr 2fr 2fr;
+    grid-template-columns: 1fr 2fr 50px 2fr 1fr;
     margin: 0 auto;
     min-height: 200px;
 }
 
-.message h1 {
+/* .message h1 {
     grid-column: 1/-1;
     grid-row: 1/2;
     text-align: center;
     color: #c29b0c;
     font-size: 35px;
-}
+} */
 
 .timeline-message {
     z-index: 1;
     background-color: #c29b0c;
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 3/4;
     font-size: 18px;
     padding: 10px;
     align-self: center;
     min-height: 200px;
     margin-top: -40px;
+    border: #6AB89F 5px solid;
+
 }
 
 .timeline-img {
-    grid-column: 3/5;
+    grid-column: 4/5;
     grid-row: 3/4;
     padding-bottom: 40px;
 }
@@ -130,23 +142,29 @@ main {
 .timeline-img img {
     z-index: 0;
     width: 100%;
+    border: #c29b0c 5px solid;
 }
 
+.timeline-img img:hover {
+    transform: scale(1.05);
+    opacity: .6;
+}
 
 .dungeon-message {
     z-index: 1;
     background-color: #c29b0c;
-    grid-column: 3/5;
+    grid-column: 2/3;
     grid-row: 4/5;
     font-size: 18px;
     padding: 10px;
     align-self: center;
     min-height: 200px;
     margin-top: -40px;
+    border: #6AB89F 5px solid;
 }
 
 .dungeon-img {
-    grid-column: 2/4;
+    grid-column: 4/5;
     grid-row: 4/5;
     padding-bottom: 40px;
 }
@@ -154,6 +172,37 @@ main {
 .dungeon-img img {
     z-index: 0;
     width: 100%;
+    border: #c29b0c 5px solid;
+}
+
+.dungeon-img img:hover {
+    transform: scale(1.05);
+    opacity: .6;
+}
+
+footer {
+    justify-content: center;
+    align-content: center;
+    min-height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #6AB89F;
+    margin-top: -16px;
+    border-top: #c29b0c 5px solid;
+
+}
+
+footer p {
+    padding: 25px;
+    color: #002D3A;
+    font-size: 17px;
+
+}
+
+.social img {
+    margin-top: 25px;
+    padding-left: 10px;
+    width: 50px;
 }
 
 
@@ -167,9 +216,11 @@ main {
     align-self: center;
     position: relative;
     background-color: black;
-    opacity: .6;
+    opacity: .7;
 }
 .hero-msg-timeline h1 {
+    font-size: 25px;
+    text-shadow: -2px -2px 0 black;
     padding-left: 15px;
     padding-right: 15px;
     color: rgb(186, 0, 0);
@@ -188,10 +239,12 @@ main {
 }
 
 .hero-msg-dungeon h1 {
+    text-shadow: -2px -2px 0 #002D3A;
     color: #c29b0c;
-    font-size: 30px;
+    font-size: 35px;
 }
 .hero-msg-dungeon h3 {
+    text-shadow: -2px -2px 0 #002D3A;
     color: #c29b0c;
     font-size: 20px;
 }
@@ -223,15 +276,10 @@ main {
 
 
 
-
-
-
-
-
-
 /* sign-up page css */
 
 .sign-up-title {
+    padding-top: 20px;
     text-align: center;
     color: #c29b0c;
 }
@@ -251,9 +299,12 @@ main {
     padding-left: 15px;
     padding-right: 15px;
     color: #c29b0c;
-    font-size: 25px;
+    font-size: 30px;
+    text-shadow: -2px -2px 0 #002D3A;
 }
 .hero-msg-sign-up h3 {
+    font-size: 25px;
+    text-shadow: -2px -2px 0 #002D3A;
     padding-left: 15px;
     padding-right: 15px;
     color: #c29b0c;
@@ -267,6 +318,7 @@ form {
     margin-top: 50px;
     border: 5px solid #c29b0c;
     color: #c29b0c;
+    padding-bottom: 100px;
 }
 
 /* Full-width input fields */
@@ -334,4 +386,8 @@ button:hover {
   .cancelbtn, .signupbtn {
     width: 100%;
   }
+}
+
+.sign-up {
+    padding-bottom: 100px;
 }
