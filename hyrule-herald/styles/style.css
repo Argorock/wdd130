@@ -111,13 +111,34 @@ main {
     min-height: 200px;
 }
 
-/* .message h1 {
-    grid-column: 1/-1;
-    grid-row: 1/2;
-    text-align: center;
-    color: #c29b0c;
-    font-size: 35px;
-} */
+.what-is-grid {
+    display: grid;
+    grid-template-columns: 1fr 819.14px 1fr;
+}
+
+.korok_1 {
+    z-index: 0;
+    transform: translate(370px, 150px) rotate(-40deg);
+    grid-row: 1;
+    grid-column: 1/2;
+    
+
+}
+
+.korok_2 {
+    z-index: 0;
+    transform: translate(-60px, 350px) rotate(40deg);
+    grid-row: 1;
+    grid-column: 3/4;
+}
+
+.korok_3 {
+    z-index: 0;
+    transform: translate(370px, 700px) rotate(-35deg);
+    grid-row: 1;
+    grid-column: 1/2;
+}
+
 
 .timeline-message {
     z-index: 1;
@@ -250,12 +271,15 @@ footer p {
 }
 
 .what-is-zelda  {
+    z-index: 2;
     margin: 0 auto;
     width: 800px;
     background-color:#6AB89F;
     padding-bottom: 10px;
     padding-left: 10px;
     border: 5px #c29b0c solid;
+    grid-column: 2/3;
+    grid-row: 1/-1;
 }
 
  .what-is p, ul {
