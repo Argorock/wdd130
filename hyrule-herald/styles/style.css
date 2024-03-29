@@ -206,7 +206,7 @@ footer {
     align-content: center;
     min-height: 150px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 250px 100px;
     background-color: #6AB89F;
     margin-top: -16px;
     border-top: #c29b0c 5px solid;
@@ -224,6 +224,35 @@ footer p {
     margin-top: 25px;
     padding-left: 10px;
     width: 50px;
+}
+
+.korok_4 {
+
+}
+
+.korok_5 {
+    transform: translate(50px, -30px) rotate(-50deg);
+}
+
+.korok_5_message {
+    position: absolute;
+    display: none;
+    transform: translate(0, -300px);
+    color: #c29b0c;
+    text-shadow: -2px -2px 0 black;
+    font-size: 20px;
+}
+.korok_5:hover {
+    transform: translate(-10px, -30px) rotate(-50deg);
+    
+}
+
+.korok_5:hover + .korok_5_message {
+    display: inline;
+}
+
+.korok_6 {
+
 }
 
 
