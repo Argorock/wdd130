@@ -26,6 +26,10 @@ nav a:hover {
     opacity: .6;
 }
 
+nav a p:hover {
+    color: #c29b0c;
+}
+
 .nav-icons {
     margin-top: -10%;
 }
@@ -44,6 +48,7 @@ nav a:hover {
 
 #logo:hover {
     transform: scale(1.1);
+    transition: .5s;
 }
 
 
@@ -146,7 +151,7 @@ main {
     grid-column: 2/3;
     grid-row: 3/4;
     font-size: 18px;
-    padding: 10px;
+    padding: 20px;
     align-self: center;
     min-height: 200px;
     margin-top: -40px;
@@ -164,11 +169,13 @@ main {
     z-index: 0;
     width: 100%;
     border: #c29b0c 5px solid;
+    box-shadow: 0px 0px 0px black;
 }
 
 .timeline-img img:hover {
     transform: scale(1.05);
-    opacity: .6;
+    box-shadow: 5px 5px 5px black;
+    transition: .5s;
 }
 
 .dungeon-message {
@@ -177,7 +184,7 @@ main {
     grid-column: 2/3;
     grid-row: 4/5;
     font-size: 18px;
-    padding: 10px;
+    padding: 20px;
     align-self: center;
     min-height: 200px;
     margin-top: -40px;
@@ -194,11 +201,15 @@ main {
     z-index: 0;
     width: 100%;
     border: #c29b0c 5px solid;
+    box-shadow: 0px 0px 0px black;
+    transform: scale(1);
+
 }
 
 .dungeon-img img:hover {
     transform: scale(1.05);
-    opacity: .6;
+    box-shadow: 5px 5px 5px black;
+    transition: auto; 
 }
 
 footer {
@@ -245,11 +256,13 @@ footer p {
 }
 .korok_5:hover {
     transform: translate(-10px, -30px) rotate(-50deg);
+    transition: .5s;
     
 }
 
 .korok_5:hover + .korok_5_message {
     display: inline;
+    
 }
 
 /* .korok_6 {
