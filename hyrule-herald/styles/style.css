@@ -26,8 +26,67 @@ nav a:hover {
     opacity: .6;
 }
 
+nav header {
+    position: relative;
+    z-index: 1;
+    max-height: 100px;
+}
+nav {
+    max-height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    background-color: #002D3A;
+    align-items: center;
+    color: #6AB89F;
+    border-bottom: #c29b0c 2px solid;
+}
+nav a {
+    color: #6AB89F;
+    margin: 0 auto;
+    width: 100%;
+}
+nav a:hover {
+    color: #c29b0c;  
+    width: 100%;
+    transform: scale(1.1);
+    opacity: .6;
+}
+
 nav a p:hover {
     color: #c29b0c;
+}
+
+.nav-icons {
+    margin-top: -10%;
+}
+
+#logo {
+    width: 100%;
+    background-color: #002D3A;
+    position: relative;
+    top: 35px;
+    border-radius: 60%;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    border-bottom: #c29b0c 5px solid;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+
+#logo img:hover {
+    /* background-color: #FED27A; */
+    /* box-shadow: #FED27A; */
+    border-radius: 100%;
+}
+
+img {
+    width: 150px;
 }
 
 .nav-icons {
