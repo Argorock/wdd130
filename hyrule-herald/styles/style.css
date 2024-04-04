@@ -139,14 +139,12 @@ main {
 .hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    /* max-height: 753.49px; */
     border-bottom: #c29b0c 2px solid;
 }
 
 .hero img {
     margin-top: -25px;
     width: 100%;
-    /* z-index: 1; */
     grid-column: 1/-1;
     grid-row: 1/3;
 }
@@ -346,6 +344,11 @@ footer p {
 
 /* page two of the Hyrule Herald */
 
+
+
+
+
+
 .hero-msg-timeline {
     letter-spacing: 2px;
     font-family: "hylia-serif";
@@ -367,7 +370,137 @@ footer p {
 
 }
 
+.time-line-intro {
+    border: #6AB89F 3px solid;
+    background-color: #c29b0c;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.time-line-intro p {
+    padding: 5px 20px;
+    color: #002D3A;
+    font-size: 20px;
+}
+
+.time-line-main {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px 1fr 100px;
+}
+
+.time-line-main h2 {
+    font-family: "Hylia-serif";
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 100%;
+    background-color: #6AB89F;
+    border: #c29b0c 3px solid;
+}
+.time-line-main p {
+    font-family: serif;
+    font-size: 20px;
+}
+
+.time-line-message-1 {
+    padding: 50px;
+    align-self: center;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.time-line-img-1 {
+    align-self: center;
+    width: 100%;
+    grid-column: 4;
+    grid-row: 1;
+}
+.time-line-message-2 {
+    align-self: center;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.time-line-img-2 {
+    align-self: center;
+    width: 100%;
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.time-line-message-3 {
+    align-self: center;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.time-line-img-3 {
+    align-self: center;
+    width: 100%;
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.time-line-message-4 {
+    align-self: center;
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.time-line-img-4 {
+    align-self: center;
+    width: 100%;
+    grid-column: 4;
+    grid-row: 4;
+}
+
+.time-line-message-5 {
+    align-self: center;
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.time-line-img-5 {
+    align-self: center;
+    width: 100%;
+    grid-column: 4;
+    grid-row: 5;
+}
+
+.time-line-message-6 {
+    align-self: center;
+    grid-column: 2;
+    grid-row: 6;
+}
+
+.time-line-img-6 {
+    align-self: center;
+    width: 100%;
+    grid-column: 4;
+    grid-row: 6;
+}
+
+.time-line-message-7 {
+    align-self: center;
+    grid-column: 2;
+    grid-row: 7;
+}
+
+.time-line-img-7 {
+    align-self: center;
+    width: 600px;
+    grid-column: 4;
+    grid-row: 7;
+}
+
 /* Page 3 of the Hyrule Herald */
+
+
+
+
+
+
 
 .hero-msg-dungeon {
     letter-spacing: 2px;
@@ -433,6 +566,8 @@ footer p {
 }
 
 .hero-msg-sign-up {
+    letter-spacing: 2px;
+    font-family: "hylia-serif";
     letter-spacing: 2px;
     font-family: "hylia-serif";
     z-index: 1;
