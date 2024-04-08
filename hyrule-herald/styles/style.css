@@ -276,9 +276,6 @@ main {
 }
 
 
-.time-line {
-}
-
 .time-line img {
     width: 700px;
 }
@@ -426,7 +423,6 @@ footer p {
 .time-line-main {
     display: grid;
     grid-template-columns: 100px 1fr 100px 1fr 200px;
-    /* grid-template-rows: 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px; */
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -611,8 +607,6 @@ footer p {
     font-size: 20px;
 }
 
-
-
 .dungeon-intro {
     color: #002D3A;
     background-color: #c29b0c;
@@ -639,6 +633,8 @@ footer p {
 
 .dungeon-video {
     border: #c29b0c 3px solid;
+    grid-column: 2;
+    grid-row: 1;
 }
 .dungeon-video:hover {
     transform: scale(1.05);
