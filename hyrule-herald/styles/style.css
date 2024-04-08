@@ -179,11 +179,43 @@ main {
     grid-template-columns: 1fr 2fr 50px 2fr 1fr;
     margin: 0 auto;
     min-height: 200px;
+    font-size: 20px;
+    line-height: 1.6em;
 }
 
 .what-is-grid {
     display: grid;
     grid-template-columns: 1fr 819.14px 1fr;
+}
+
+.what-is-zelda  {
+    line-height: 1.6em;
+    z-index: 2;
+    margin: 0 auto;
+    width: 800px;
+    background-color:#6AB89F;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border: 5px #c29b0c solid;
+    grid-column: 2/3;
+    grid-row: 1/-1;
+}
+
+ .what-is p, ul {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 1.6em;
+    font-size: 18px;
+}
+
+.what-is h2 {
+    font-family: "hylia-serif";
+    letter-spacing: 2px;
+    color:#002D3A;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .korok_1 {
@@ -197,14 +229,14 @@ main {
 
 .korok_2 {
     z-index: 0;
-    transform: translate(-60px, 350px) rotate(40deg);
+    transform: translate(-60px, 600px) rotate(40deg);
     grid-row: 1;
     grid-column: 3/4;
 }
 
 .korok_3 {
     z-index: 0;
-    transform: translate(370px, 700px) rotate(-35deg);
+    transform: translate(370px, 1200px) rotate(-35deg);
     grid-row: 1;
     grid-column: 1/2;
 }
@@ -388,6 +420,7 @@ footer p {
     padding: 5px 20px;
     color: #002D3A;
     font-size: 20px;
+    line-height: 1.6em;
 }
 
 .time-line-main {
@@ -397,6 +430,7 @@ footer p {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
+    line-height: 1.6em;
 }
 
 .time-line-main h2 {
@@ -414,13 +448,14 @@ footer p {
 .time-line-main p {
     font-family: serif;
     font-size: 20px;
+    line-height: 1.6em;
 }
 
 .time-line-message-1 {
-    /* padding: 50px; */
     align-self: center;
     grid-column: 2;
     grid-row: 1;
+    line-height: 1.6em;
 }
 
 .time-line-img-1 {
@@ -433,6 +468,7 @@ footer p {
     align-self: center;
     grid-column: 4;
     grid-row: 3;
+    line-height: 1.6em;
 }
 
 .time-line-img-2 {
@@ -446,6 +482,7 @@ footer p {
     align-self: center;
     grid-column: 2;
     grid-row: 5;
+    line-height: 1.6em;
 }
 
 .time-line-img-3 {
@@ -459,6 +496,7 @@ footer p {
     align-self: center;
     grid-column: 4;
     grid-row: 7;
+    line-height: 1.6em;
 }
 
 .time-line-img-4 {
@@ -472,6 +510,7 @@ footer p {
     align-self: center;
     grid-column: 2;
     grid-row: 9;
+    line-height: 1.6em;
 }
 
 .time-line-img-5 {
@@ -485,6 +524,7 @@ footer p {
     grid-column: 2/5;
     max-width: 100%;
     grid-row: 11;
+    line-height: 1.6em;
 }
 
 .time-line-video-1 {
@@ -522,6 +562,7 @@ footer p {
     padding-bottom: 50px;
     text-align: center;
     font-size: 22px;
+    line-height: 1.6em;
 }
 .time-line-indepth h2 {
     width: 80%;
@@ -570,52 +611,26 @@ footer p {
     font-size: 20px;
 }
 
-.what-is-zelda  {
-    line-height: 1.3em;
-    z-index: 2;
-    margin: 0 auto;
-    width: 800px;
-    background-color:#6AB89F;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    border: 5px #c29b0c solid;
-    grid-column: 2/3;
-    grid-row: 1/-1;
-}
 
- .what-is p, ul {
-    padding-top: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    /* padding-bottom: 5px; */
-}
-.what-is h2 {
-    font-family: "hylia-serif";
-    letter-spacing: 2px;
-    color:#002D3A;
-    padding-top: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
 
 .dungeon-intro {
     color: #002D3A;
     background-color: #c29b0c;
     width: 80%;
     margin: 0 auto;
-    line-height: 1.5em;
+    line-height: 1.6em;
     border: #6AB89F 3px solid;
     margin-top: 50px;
     font-size: 22px;
     padding: 15px;
 }
 
-.dungeon-message {
+.dungeon-message-2 {
     color: #002D3A;
     background-color: #6AB89F;
     width: 80%;
     margin: 0 auto;
-    line-height: 1.5em;
+    line-height: 1.6em;
     border: #c29b0c 3px solid;
     margin-top: 50px;
     font-size: 22px;
@@ -644,8 +659,6 @@ footer p {
 }
 
 .hero-msg-sign-up {
-    letter-spacing: 2px;
-    font-family: "hylia-serif";
     letter-spacing: 2px;
     font-family: "hylia-serif";
     z-index: 1;
